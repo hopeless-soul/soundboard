@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soundboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="flex-wrapper">
+        <div style="display: flex; flex-direction: column; gap: 20px;" class="flex-column">
+            <div class="btn-bg" style="background-color: greenyellow;">
+                <button class="sprite-btn" onclick="playSound('correct')"></button></button>
+            </div>
+            <div class="btn-bg" style="background-color: red;">
+                <button class="sprite-btn" onclick="playSound('wrong')"></button></button>
+            </div>
+            <div class="btn-bg" style="background-color: orange;">
+                <button class="sprite-btn" onclick="playSound('brainDamage')"></button></button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
