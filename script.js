@@ -1,7 +1,7 @@
 const sounds = {
-    correct: new Audio("sounds/truth-detector-bassboosted.mp3"),
-    wrong: new Audio("sounds/lie-detector-meme.mp3"),
-    brainDamage: new Audio("sounds/shocked-sound-effect.mp3"),
+    correct: new Audio("./truth-detector-bassboosted.mp3"),
+    wrong: new Audio("./lie-detector-meme.mp3"),
+    brainDamage: new Audio("./shocked-sound-effect.mp3"),
 };
 
 sounds.correct.volume = 0.2;
@@ -20,3 +20,4 @@ function playSound(name) {
     sound.currentTime = 0;
     sound.play();
 }
+
